@@ -1,0 +1,332 @@
+body {
+  background-color: #e8dfd6;
+  height: 100%;
+  width: 100%;
+  user-select: none;
+}
+
+.access-input {
+  height: 50px;
+  border: 1px solid #cbcbcb;
+  border-radius: 10px;
+}
+
+.access-button {
+  height: 50px;
+  background-color: #ec5c1c;
+  border: 1px solid #d34f16;
+  font-size: 20px;
+  color: #fff;
+  margin-top: 20px !important;
+}
+
+.access-button:hover {
+  background-color: #e96c37;
+  border: 1px solid #d34f16;
+  color: #fff;
+}
+
+.access-button:focus {
+  background-color: #e96c37;
+  color: #fff;
+}
+
+.bottom-container {
+  position: absolute;
+  height: 60px;
+  width: 100%;
+  bottom: 0px;
+  border-radius: 0 0 20px 20px;
+  background-color: #ec5c1c !important;
+}
+
+.bottom-button {
+  height: 100%;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 21px;
+}
+
+.bottom-button:first-child {
+  border-right: 0.5px solid #ec6c34;
+}
+
+.bottom-button:nth-child(2) {
+  border-left: 0.5px solid #ec6c34;
+}
+
+.character-form {
+  padding: 2px;
+}
+
+.checker-form {
+  visibility: hidden;
+}
+
+.container-aplication {
+  display: flex;
+}
+
+.contenedor-resultados {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-items-to-be-evaluated {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+#exampleInputEmail1 {
+  height: 50px;
+}
+
+.form-check-label {
+  width: 100%;
+  height: 100%;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.first-container {
+  height: 500px;
+  width: 832px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  -webkit-box-shadow: 3px 5px 17px 3px rgba(0, 0, 0, 0.53);
+  box-shadow: 3px 5px 17px 3px rgba(0, 0, 0, 0.53);
+}
+
+.footer {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+}
+
+.form-user {
+  height: 100%;
+  width: 100%;
+}
+
+.form-check {
+  height: 45px;
+}
+
+.flex-item {
+  min-width: 300px;
+  margin: 5px auto;
+  padding: 10px;
+  padding-right: 10px;
+}
+
+.form-check-input {
+  visibility: hidden;
+}
+
+.general-opinion-container {
+  display: flex;
+  justify-content: center;
+}
+
+.imagen-resultados {
+  width: 500px;
+  margin: auto;
+  border-bottom: 10px;
+  -webkit-box-shadow: 3px 5px 17px 3px rgba(0, 0, 0, 0.53);
+  box-shadow: 3px 5px 17px 3px rgba(0, 0, 0, 0.53);
+}
+
+.imagen-form {
+  width: 120px;
+  height: 120px;
+}
+
+.logo-alfa {
+  -webkit-box-shadow: 3px 5px 17px 3px rgba(0, 0, 0, 0.53);
+  box-shadow: 3px 5px 17px 3px rgba(0, 0, 0, 0.53);
+  position: absolute;
+  width: 130px;
+  top: 10%;
+  left: 5%;
+}
+
+.navbar {
+  border-radius: 20px 20px 0 0;
+  background-color: #ec5c1c !important;
+}
+
+.navbar-brand {
+  margin: 10px 20px;
+  padding-top: 10px;
+}
+
+.nav-link {
+  font-size: 16.5px !important;
+  margin-top: -3px;
+}
+
+.new-form-label {
+  text-align: center;
+}
+
+.opinion-container:hover {
+  background-color: #f7f7f7;
+}
+
+.opinion-container {
+  display: flex;
+  justify-content: center;
+  height: 160px;
+  width: 160px;
+}
+
+.opinion-container,
+.check-item {
+  border: 1px solid #cbcbcb;
+  border-radius: 5px;
+}
+
+.selected-option {
+  border: 1px solid #8cc5fe;
+  background-color: #d7ebff;
+}
+
+@keyframes seleccioncheck {
+  0% {
+    background-color: #fff;
+  }
+
+  30% {
+    background-color: #d7ebff;
+  }
+
+  50% {
+    background-color: #fff;
+  }
+
+  100% {
+    background-color: #d7ebff;
+  }
+}
+
+.selected-option,
+.selected-check {
+  border: 1px solid #8cc5fe;
+  background-color: #d7ebff;
+}
+
+.selected-option:hover,
+.selected-check:hover {
+  animation: seleccioncheck 0.4s ease 0.1s 1 backwards;
+}
+
+.selected-option:hover,
+.selected-check:hover {
+  border: 1px solid #8cc5fe;
+  background-color: #d7ebff;
+}
+
+.text-animation-1:hover {
+  animation: movimientoxneg 1s ease 0.1s 1 backwards;
+}
+
+.text-animation-1,
+.text-animation-2 {
+  margin-top: 11px;
+}
+
+@keyframes movimientoxneg {
+  0% {
+    transform: translate(0px);
+  }
+
+  30% {
+    transform: translate(-10px);
+  }
+
+  50% {
+    transform: translate(-5px);
+  }
+
+  70% {
+    transform: translate(-10px);
+  }
+
+  100% {
+    transform: translate(0px);
+  }
+}
+
+.text-animation-2:hover {
+  animation: movimientoxpos 1s ease 0.1s 1 backwards;
+}
+
+@keyframes movimientoxpos {
+  0% {
+    transform: translate(0px);
+  }
+
+  30% {
+    transform: translate(10px);
+  }
+
+  50% {
+    transform: translate(5px);
+  }
+
+  70% {
+    transform: translate(10px);
+  }
+
+  100% {
+    transform: translate(0px);
+  }
+}
+
+@media (max-width: 860px) {
+  .first-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .footer {
+    visibility: hidden;
+  }
+
+  .title {
+    margin-top: -35px;
+    font-size: 23px;
+  }
+
+  .checker-2 {
+    height: 38px;
+    margin-top: -2px;
+    padding-top: 5px;
+  }
+
+  .opinion-container {
+    padding-top: 10px;
+  }
+
+  .imagen-resultados {
+    width: 350px;
+  }
+
+  .nav-link {
+    margin-left: 20px;
+    margin-top: 0px;
+  }
+
+  .form-check-label {
+    margin-top: -10px;
+  }
+}
